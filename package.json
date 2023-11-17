@@ -1,0 +1,23 @@
+{
+	"name": "jest-unit-testing-utility-functions",
+	"version": "1.0.0",
+	"description": "",
+	"author": "Serge Plaski",
+	"license": "ISC",
+	"keywords": [],
+	"main": "script.js",
+	"scripts": {
+		"test": "npx jest"
+	},
+	"jest": {
+		"testEnvironment": "node",
+		"transform": {
+			"^.+\\.js$": "babel-jest"
+		}
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.23.3",
+		"babel-jest": "^29.7.0",
+		"jest": "^29.7.0"
+	}
+}
